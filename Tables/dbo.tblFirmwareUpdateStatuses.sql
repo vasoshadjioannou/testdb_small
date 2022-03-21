@@ -8,6 +8,7 @@
   [IsRead] [bit] NULL,
   [gateway] [nvarchar](250) NULL,
   [LastUpdated] [datetime] NULL,
+  [test] [int] NULL,
   CONSTRAINT [PK_tblFirmwareUpdateStatuses] PRIMARY KEY CLUSTERED ([FirmwareUpdateStatusID])
 )
 ON [PRIMARY]
