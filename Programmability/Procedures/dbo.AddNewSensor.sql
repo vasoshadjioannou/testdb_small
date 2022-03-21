@@ -24,6 +24,8 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
+	declare @TEST bigint=1
+
     -- Insert statements for procedure here
 	
 	insert into tblSensors
