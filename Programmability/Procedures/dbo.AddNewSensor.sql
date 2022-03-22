@@ -25,6 +25,7 @@ BEGIN
 	SET NOCOUNT ON;
 
 	declare @TEST bigint=1
+	declare @TEST2 bigint=1
 
     -- Insert statements for procedure here
 	
